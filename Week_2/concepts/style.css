@@ -1,0 +1,51 @@
+h1{
+    color: green;
+}
+
+a{
+    font-size: 60px;
+}
+
+a:hover{
+    color: red;
+    font-size: 80px;
+}
+
+.blue{
+    color: blue;
+    margin: 100px;
+}
+
+ul{
+    font-size: 60px;
+}
+
+li:first-child{
+    color: steelblue;
+}
+
+li:last-child{
+    color: green;
+}
+
+li:nth-child(2){
+    color: magenta;
+}
+
+a:first-child{
+    color: green;
+}
+
+a:visited{
+    color: coral;
+}
+
+.example{
+    background-color: yellow;
+    padding: 50px;
+}
+#red{
+    color: red;
+    margin: 20px;
+}
+

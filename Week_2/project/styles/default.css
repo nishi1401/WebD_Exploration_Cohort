@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    resize: none;
+    list-style: none;
+    outline: none;
+
+}
+
+em{
+    font-style: normal;
+    color: #E36DB4;
+}

@@ -1,0 +1,139 @@
+/*NAVIGATION*/
+header{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:fixed;
+    top:0;
+    z-index:999;
+}
+    
+header .banner{
+    width:80%;
+    padding:10px 0px;
+    color:#1e1e1e;
+}
+
+header .banner span:nth-child(1) a{
+    margin:0px 5px;
+    font-size:13px;
+    color:#000;
+}
+
+/* header .banner span:nth-child(1) em{
+    color:#000;
+} */
+
+header .banner span:nth-child(2) a{
+    margin:0px 5px;
+    background:#E36DB4;
+    color:#fff;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    padding:6px;
+    float:right;
+    text-align:center;
+    box-shadow:0px 6px -16px 6px rgba(1,1,1,0.5);
+}
+
+header .nav{
+    position:fixed;
+    top:3em;
+    width:80%;
+    box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
+    background:#fff;
+    border-radius:40px;
+    padding:20px;
+    transition:0.5s;
+    border-top:1px solid #E36DB4;
+}
+
+header .nav a{
+display:inline-block;
+margin:0px 20px;
+text-decoration:none;
+color:#000;
+transition:0.5s;
+font-weight:400;
+}
+
+header .nav a:hover:not(:first-child){
+    color:#E36DB4;
+}
+
+header .nav a.active{
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: inset 0px 0px 1px #BABECC, inset -1px -1px 2px #FFF;
+    padding:10px 20px;
+    border-radius:40px;
+    font-weight:bold;
+}
+
+header .nav .dropdown li:before{
+    content:"\f0a4";
+    font-family:"FontAwesome";
+    color:#E36DB4;
+    margin:0px 4px;
+}
+
+header .nav .icon{
+    display:none;
+}
+
+.dropbtn{
+    background:transparent;
+    border:0;
+    outline:0;
+    font-size:16px;
+    margin:0px 10px;
+    font-family: 'Yusei Magic', sans-serif;
+    transition:0.5s;
+}
+
+.dropbtn:hover{
+    color:#E36DB4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top:10px;
+}
+
+.dropdown-content:before {
+    content:"\f0d8";
+    font-family:"FontAwesome";
+    position:absolute;
+    text-align:center;
+    left:45%;
+    top:-15px;
+    font-size:20px;
+    color:gray;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {color:#E36DB4;}
+.dropdown:hover .dropdown-content {display: block;}
+
+
