@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    overflow-x:hidden;
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+a,button{
+    text-decoration:none;
+    transition:0.5s;
+    resize:none;
+    list-style:none;
+    outline:none !important;
+}
+    
+em{
+font-style:normal;
+color:#d80b1a;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

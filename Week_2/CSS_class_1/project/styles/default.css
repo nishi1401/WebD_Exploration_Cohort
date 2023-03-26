@@ -1,17 +1,133 @@
 body{
-    margin: 0;
+    margin:0;
+    overflow-x:hidden;
     font-family: 'Poppins', sans-serif;
 }
+    
 
-a{
-    text-decoration: none;
-    resize: none;
-    list-style: none;
-    outline: none;
-
+a,textarea,li,button{
+    text-decoration:none;
+    transition:0.5s;
+    resize:none;
+    list-style:none;
+    outline:none !important;
 }
-
-em{
-    font-style: normal;
-    color: #E36DB4;
-}
+    
+    ul{
+    position:relative;
+    left:-20px;
+    }
+    
+    p,.title,.sub-title{
+    line-height:1.4em;
+    letter-spacing:0.08em;
+    }
+    
+    .btn1,.btn2,.btn3{
+    padding:10px 20px;
+    border-radius:3px;
+    text-align:center;
+    color:#fff;
+    }
+    
+    .btn1{
+    background:#E36DB4;
+    }
+    
+    .btn2{
+    background:#E36DB4;
+    }
+    
+    .btn3{
+    background:#1e1e1e;
+    }
+    
+    .btn1:hover,.btn2:hover,.btn3:hover{
+    box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
+    }
+    
+    .title{
+    font-size:2.4em;
+    }
+    
+    .sub-title{
+    font-size:1.3em;
+    color:rgb(60, 60, 60);
+    }
+    
+    em{
+    font-style:normal;
+    color:#E36DB4;
+    }
+    
+    table{
+    width:100%;
+    border-collapse:collapse;
+    }
+    
+    table td{
+    width:50%;
+    position:relative;
+    vertical-align:top;
+    }
+    
+    .title_header{
+    width:70%;
+    display:block;
+    margin:5vh auto;
+    text-align:center;
+    }
+    
+    .title_header .title{
+    font-size:2em;
+    }
+    
+    .title_header .sub-title{
+    font-size:1em;
+    color:gray;
+    font-weight:400;
+    }
+    
+    .fa-check{
+    color:green;
+    }
+    
+    .fa-times{
+    color:#d80b1a;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*ANIMATION*/
+    .ml9 {
+    position: relative;
+    }
+    
+    .ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    }
+    
+    .ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
