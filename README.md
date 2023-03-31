@@ -16,6 +16,7 @@
 - Javascript Beginner Friendly Projects: https://javascript30.com/
 - Figuring out full stack: https://www.youtube.com/watch?v=nu_pCVPKzTk
 
+- Node.Js introductory video: https://www.youtube.com/watch?v=8u1o-OmOeGQ
 
 We will update the list as the cohort progresses :)
 
