@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: "Poppins", sans-serif;
+    background: #ebf2ff;
+}
+
+.navbar{
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(166, 231, 242) , rgb(244, 177, 241),rgb(252, 252, 141));
+    box-shadow: 0 4px grey;
+}
+
+.content{
+    margin: 20px;
+}
+
+.title{
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(180, 242, 168);
+    padding: 10px;
+}
+
+#chem{
+    background-color: rgb(247, 174, 247);
+}
+
+.read-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Chemistry, .Physics, .Biology{
+    display: none;
+    width: 400px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(180, 242, 168);
+    padding: 10px;
+}
+
+

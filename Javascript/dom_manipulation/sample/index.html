@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Manipulation</title>
+    <link href="style.css" rel="stylesheet"/>
+
+    <!-- Google Font - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Sciencify</h1>
+    </nav>
+    <div class="content">
+        <!-- This is a comment..considered a node -->
+        <ul>
+            <li class="title" id="chem" onclick="alert('Chemistry selected!')">
+                Chemistry
+            </li>
+            <li class="title" id="phy">
+                Physics
+            </li>
+            <li class="title" id="bio">
+                Biology
+            </li>
+        </ul>
+        <!-- This is another comment..considered a node -->
+    </div>
+    <div class="read-more">
+        <div class="chem-more title">
+            About Chemistry
+        </div>
+        <div class="phy-more title">
+            About Physics
+        </div>
+        <div class="bio-more title">
+            About Biology
+        </div>
+    </div>
+
+    <div class="Chemistry">
+        It is all about atoms and their interactions.
+    </div>
+    <div class="Physics">
+        It is all about  nature and properties of matter and energy.
+    </div>
+    <div class="Biology">
+        It is all about anatomy of living beings.
+    </div>
+    
+    <script src="index.js"/>
+</body>
+</html>
